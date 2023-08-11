@@ -1,0 +1,4 @@
+# Telegram bot token and chat ID
+user_name="mero-share-user-name"
+secret_key="secret-key"
+chat_id="chat-id-number or channel id"

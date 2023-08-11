@@ -16,7 +16,7 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 import json
 from mail import send_email
-content=open("/opt/script/meroshare/siru/creadential.json","r")
+content=open("/opt/script/meroshare/kali/creadential.json","r")
 
 config=json.load(content)
 key_list = list(config.keys())
@@ -134,7 +134,7 @@ def datatdo():
             time.sleep(1)
 
             bankname=Select(driver.find_element(By.ID,'selectBank'))
-            values=f"1: {value}"
+            values=f"2: {value}"
             bankname.select_by_value(values)
 
             minimum_share=10
@@ -204,7 +204,7 @@ def datatdo():
                             time.sleep(2)
                             a=application_form()
                             send_email(listofcmpy[j]['company'],listofcmpy[j]['share_type'],listofcmpy[j]['email'],listofcmpy[j]['applied_time'])
-                            time.sleep(20)
+                            time.sleep(10)
                     
                             if len(listofcmpy)==j+1:
                                 time.sleep(2)
