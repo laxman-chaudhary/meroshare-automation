@@ -95,3 +95,5 @@
    TRISHAKTI SECURITIES PUBLIC LIMITED (11400)
    TRISHUL SECURITIES & INVESTMENT LIMITED (17100)
    VISION SECURITIES PVT. LTD (13500)
+![image](https://github.com/laxman-chaudhary/meroshare-automation/assets/17145173/0047cc33-8876-49be-ab31-7be1dde6b363)
+
