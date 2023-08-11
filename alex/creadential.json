@@ -1,0 +1,12 @@
+{
+
+   "user1":{
+      "DepositerParticipaterID":"depositer-id",
+      "CRN_Number":"crn-number",
+      "UserName":"uername-here",
+      "password":"password_here",
+      "user_email":"your-email-here",
+      "transaction_pin":"transaction-pin",
+      "selectbnkvalue":"bank-value-number-here"
+   }
+}
