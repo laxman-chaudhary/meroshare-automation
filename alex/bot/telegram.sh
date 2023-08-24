@@ -23,7 +23,7 @@ while IFS= read -r line; do
     if [[ -n "$share_type" && -n "$share_group" && -n "$company" && -n "$email" && -n "$date" && -n "$applied_kitta" ]]; then
         # Prepare the message with proper formatting (using Markdown for bold)
    message="Dear *$user_name*,
-   Share Applied Sucessfully: *$applied_kitta किट्टा*
+   Share Applied Sucessfully
 
    *Type:*  \`$share_type\`
    *Group:* \`$share_group\`
